@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonMarket", "PokemonMarket\PokemonMarket.csproj", "{1D44BD16-FC81-4C3D-B4AF-F6DBAC6C43A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonMarket.Services", "PokemonMarket.Services\PokemonMarket.Services.csproj", "{45E7C900-2B8E-4E95-AEF8-531C3BDA9393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonMarket.Core", "PokemonMarket.Core\PokemonMarket.Core.csproj", "{D414497D-AB04-4B20-87B1-FD1B9D579AC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1D44BD16-FC81-4C3D-B4AF-F6DBAC6C43A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D44BD16-FC81-4C3D-B4AF-F6DBAC6C43A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D44BD16-FC81-4C3D-B4AF-F6DBAC6C43A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E7C900-2B8E-4E95-AEF8-531C3BDA9393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E7C900-2B8E-4E95-AEF8-531C3BDA9393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E7C900-2B8E-4E95-AEF8-531C3BDA9393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E7C900-2B8E-4E95-AEF8-531C3BDA9393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D414497D-AB04-4B20-87B1-FD1B9D579AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D414497D-AB04-4B20-87B1-FD1B9D579AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D414497D-AB04-4B20-87B1-FD1B9D579AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D414497D-AB04-4B20-87B1-FD1B9D579AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

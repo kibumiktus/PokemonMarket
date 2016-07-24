@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Order Feed";
+}
+<script src="~/Scripts/angular.js"></script>
+
+<script>
+    var pokemonMarketApp = angular.module('pokemonMarketApp', []);
+
+    // Define the `PhoneListController` controller on the `phonecatApp` module
+    pokemonMarketApp.controller('OrderFeedController', function ($http, $scope) {
+        $scope.lastRequest = new Date(0);
+        $scope.purchases = [];
+
+        setInterval(function () {
+            var currentRequestTime = new Date();
+            $http.get('/OrderFeed/List/?minTime=' + $scope.lastRequest.toJSON()).then(function (response) {
+                $scope.purchases = response.data.concat($scope.purchases);
+                $scope.lastRequest = currentRequestTime;
+            });
+        }, 2000);
+    });
+</script>
+
+<div ng-controller="OrderFeedController">
+    <div class="alert alert-info" ng-repeat="purchase in purchases">
+        <span>{{purchase.ReqestTimeString}} {{purchase.Name}} заказал покемона уже {{purchase.Count}} раз</span>
+    </div>
+</div>

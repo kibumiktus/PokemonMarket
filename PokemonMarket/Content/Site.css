@@ -1,0 +1,36 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding: 15px;
+}
+
+body {
+    background-image: url("/Images/bg.jpg");
+    background-size: cover;
+}
+
+.send-purchase-form {
+    background-color: #65c3c3;
+    padding: 10px;
+}
+
+    .send-purchase-form .input-group {
+        margin-bottom: 10px;
+    }
+
+        .send-purchase-form .input-group input {
+            width: 100%;
+        }
+
+.glyphicon {
+    top: 0px !important;
+}
+
+.validation-summary-errors {
+    color: red;
+}
+
