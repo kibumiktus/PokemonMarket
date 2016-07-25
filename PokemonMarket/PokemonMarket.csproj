@@ -96,10 +96,6 @@
     <Content Include="App_Data\PokemonMarketStorage.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="App_Data\PokemonMarketStorage_log.ldf">
-      <DependentUpon>PokemonMarketStorage.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
